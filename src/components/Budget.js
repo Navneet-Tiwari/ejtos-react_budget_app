@@ -36,7 +36,7 @@ const Budget = () => {
                         value={budget}
                         max={20000}
                         step={10}
-                        // style={{ marginLeft: '2rem' , size: 10}}
+                        style={{ marginLeft: '0px' , size: 10, width: '150px', height: '25px'}}
                         // onChange={(event) => setBudget(event.target.value)}>
                         onChange={handleChange}
                         >
